@@ -23,7 +23,7 @@ public class MainActivity<Buuton> extends AppCompatActivity {
         convertBuuton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                double multipliyer=39.37;
+                double multipliyer=22.37;
                 double result=00.0;
                 double metervalue=Double.parseDouble(enterMeters.getText().toString());
                 result=metervalue*multipliyer;
